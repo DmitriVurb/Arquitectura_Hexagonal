@@ -12,3 +12,7 @@ Este proyecto implementa una arquitectura hexagonal (puertos y adaptadores) usan
 
 ```bash
 python main.py
+```
+
+Si se desea ejecutar sin consola (presionando "n"), usar la siguiente URL:
+

@@ -13,6 +13,7 @@ class ServicioDeTareas:
             raise ValueError("El título no puede estar vacío.")
         tarea = Tarea(titulo=titulo.strip())
         self.repositorio.guardar(tarea)
+        return tarea
 
     def listar_tareas(self):
         return self.repositorio.obtener_todas()
