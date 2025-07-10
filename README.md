@@ -16,3 +16,6 @@ python main.py
 
 Si se desea ejecutar sin consola (presionando "n"), usar la siguiente URL:
 
+```bash
+http://localhost:8000/docs
+```
